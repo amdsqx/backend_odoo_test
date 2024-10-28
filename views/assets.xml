@@ -1,0 +1,7 @@
+<!-- views/assets.xml -->
+
+<odoo>
+    <template id="pos_disable_buttons_assets" name="POS Disable Buttons Assets">
+        <script type="text/javascript" src="/backend_odoo_test/static/src/js/pos_disable_buttons.js"/>
+    </template>
+</odoo>

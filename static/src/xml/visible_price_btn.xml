@@ -1,0 +1,14 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="visible_price_btn_template" inherit_id="point_of_sale.NumpadWidget" xml:space="preserve">
+        <xpath expr="//button[hasclass('mode-button')]" position="replace">
+            <button t-if="env and env.pos and env.pos.visible_price_btn" 
+                    class="mode-button" 
+                    t-on-click="() => this.sendButton('Price')" 
+                    t-att-disabled="!env.pos.visible_price_btn" 
+                    title="Show Price">
+                <t t-esc="'Price'" />
+            </button>
+        </xpath>
+    </template>
+</odoo> -->
